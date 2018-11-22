@@ -1,0 +1,51 @@
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #810000;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axis-text {
+  text-anchor: middle;
+  fill: white;
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: white;
+  transition: fill 0.7s ease-out;
+  text-anchor: middle;
+  font-size: 25px;
+}
+
+.inactive {
+  font-weight: bold;
+  fill:  #b90000;
+  transition: fill 0.7s ease-out;
+  text-anchor: middle;
+
+}
+
+.inactive:hover {
+  fill: black;
+  cursor: pointer;
+}
+
+.p-title {
+  color: white;
+  background-color:  #b60000;
+  padding: 5px;
+}
+
+svg {
+  background-color: rgb(74, 74, 255);
+}
