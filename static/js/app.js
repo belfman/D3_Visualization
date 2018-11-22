@@ -108,8 +108,8 @@ function updateToolTip(chosenXAxis, circlesGroup) {
 }
 
 // Import Data
-d3.csv("data/stateData.csv", function(err, stateData) {
-if (err) throw err;
+d3.csv("data/stateData.csv", function(stateData) {
+
 
   // parse data and convert strings to ints with the +
   stateData.forEach(function(data) {
